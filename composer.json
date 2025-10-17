@@ -1,5 +1,5 @@
 {
-  "name": "oseniadewale/profile-endpoint",
+  "name": "oseniadewale/api_for_hng_assignment",
   "description": "Stage 0 Backend Task - Profile Endpoint API with dynamic cat fact",
   "type": "project",
   "require": {
