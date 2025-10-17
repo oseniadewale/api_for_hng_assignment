@@ -1,7 +1,7 @@
-# Backend Wizards — Stage 0 Task (PHP Implementation)
+
 
 ## Description
-A simple RESTful API that returns my profile information along with a random cat fact fetched dynamically from the Cat Facts API.
+ A simple RESTful API that returns my profile information along with a random cat fact fetched dynamically from the Cat Facts API: https://catfact.ninja/fact. It also has a timestamp that dynamically reflect the current UTC time at the moment of the request and update with every new request(of ISO 8601) 
 
 ## Endpoint
 **GET /me**
@@ -29,7 +29,7 @@ http://localhost:8000/me
 ```
 
 ## Dependencies
-- PHP 8.x+
+- PHP 8.x+(version 8.0 and above)
 - cURL enabled
 
 ## Deployment
@@ -39,6 +39,8 @@ Can be deployed on:
 - 000WebHost
 - InfinityFree
 - Heroku (PHP buildpack)
+
+See a sample of my deployment from Railway.app: https://apiforhngassignment-production.up.railway.app/me
 
 ## Author
 **Name:** Oseni Adewale Oluwafemi  
