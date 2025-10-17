@@ -1,0 +1,14 @@
+{
+  "name": "oseniadewale/profile-endpoint",
+  "description": "Stage 0 Backend Task - Profile Endpoint API with dynamic cat fact",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./"
+    }
+  }
+}
